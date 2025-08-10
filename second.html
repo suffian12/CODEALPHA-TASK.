@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="title">Image Gallery</h1>
+
+<div class="gallery">
+  <img src="https://picsum.photos/id/1015/400/300" alt="Image 1">
+  <img src="https://picsum.photos/id/1016/400/300" alt="Image 2">
+  <img src="https://picsum.photos/id/1018/400/300" alt="Image 3">
+  <img src="https://picsum.photos/id/1020/400/300" alt="Image 4">
+  <img src="https://picsum.photos/id/1024/400/300" alt="Image 5">
+  <img src="https://picsum.photos/id/1035/400/300" alt="Image 6">
+  <img src="https://picsum.photos/id/1041/400/300" alt="Image 7">
+  <img src="https://picsum.photos/id/1050/400/300" alt="Image 8">
+  <img src="https://picsum.photos/id/1062/400/300" alt="Image 9">
+  <img src="https://picsum.photos/id/1074/400/300" alt="Image 10">
+  <img src="https://picsum.photos/id/1084/400/300" alt="Image 11">
+  <img src="https://picsum.photos/id/109/400/300" alt="Image 12">
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+  <img id="lightbox-img" src="">
+  <span class="next" onclick="changeImage(1)">&#10095;</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
